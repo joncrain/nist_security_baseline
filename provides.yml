@@ -21,3 +21,401 @@ widgets:
         view: nist_security_baseline_audit_acls_folders_configure_widget
     nist_security_baseline_audit_acls_folders_mode_configure:
         view: nist_security_baseline_audit_acls_folders_mode_configure_widget
+    nist_security_baseline_audit_configure_capacity_notify:
+        view: nist_security_baseline_audit_configure_capacity_notify_widget
+    nist_security_baseline_audit_failure_halt:
+        view: nist_security_baseline_audit_failure_halt_widget
+    nist_security_baseline_audit_files_group_configure:
+        view: nist_security_baseline_audit_files_group_configure_widget
+    nist_security_baseline_audit_files_owner_configure:
+        view: nist_security_baseline_audit_files_owner_configure_widget
+    nist_security_baseline_audit_flags_aa_configure:
+        view: nist_security_baseline_audit_flags_aa_configure_widget
+    nist_security_baseline_audit_flags_ad_configure:
+        view: nist_security_baseline_audit_flags_ad_configure_widget
+    nist_security_baseline_audit_flags_failed_file_read_restriction_enforced:
+        view: nist_security_baseline_audit_flags_failed_file_read_restriction_enforced_widget
+    nist_security_baseline_audit_flags_failed_file_write_access_restriction_enforced:
+        view: nist_security_baseline_audit_flags_failed_file_write_access_restriction_enforced_widget
+    nist_security_baseline_audit_flags_file_attr_mod_access_restriction_enforced:
+        view: nist_security_baseline_audit_flags_file_attr_mod_access_restriction_enforced_widget
+    nist_security_baseline_audit_flags_lo_configure:
+        view: nist_security_baseline_audit_flags_lo_configure_widget
+    nist_security_baseline_audit_folder_group_configure:
+        view: nist_security_baseline_audit_folder_group_configure_widget
+    nist_security_baseline_audit_folder_owner_configure:
+        view: nist_security_baseline_audit_folder_owner_configure_widget
+    nist_security_baseline_audit_retention_one_week_configure:
+        view: nist_security_baseline_audit_retention_one_week_configure_widget
+    nist_security_baseline_audit_settings_failure_notify:
+        view: nist_security_baseline_audit_settings_failure_notify_widget
+    nist_security_baseline_auth_pam_login_smartcard_enforce:
+        view: nist_security_baseline_auth_pam_login_smartcard_enforce_widget
+    nist_security_baseline_auth_pam_su_smartcard_enforce:
+        view: nist_security_baseline_auth_pam_su_smartcard_enforce_widget
+    nist_security_baseline_auth_pam_sudo_smartcard_enforce:
+        view: nist_security_baseline_auth_pam_sudo_smartcard_enforce_widget
+    nist_security_baseline_auth_smartcard_allow:
+        view: nist_security_baseline_auth_smartcard_allow_widget
+    nist_security_baseline_auth_smartcard_certificate_trust_enforce_high:
+        view: nist_security_baseline_auth_smartcard_certificate_trust_enforce_high_widget
+    nist_security_baseline_auth_smartcard_certificate_trust_enforce_moderate:
+        view: nist_security_baseline_auth_smartcard_certificate_trust_enforce_moderate_widget
+    nist_security_baseline_auth_smartcard_enforce:
+        view: nist_security_baseline_auth_smartcard_enforce_widget
+    nist_security_baseline_auth_ssh_smartcard_enforce:
+        view: nist_security_baseline_auth_ssh_smartcard_enforce_widget
+    nist_security_baseline_sysprefs_ad_tracking_disable:
+        view: nist_security_baseline_sysprefs_ad_tracking_disable_widget
+    nist_security_baseline_sysprefs_afp_disable:
+        view: nist_security_baseline_sysprefs_afp_disable_widget
+    nist_security_baseline_sysprefs_apple_watch_unlock_disable:
+        view: nist_security_baseline_sysprefs_apple_watch_unlock_disable_widget
+    nist_security_baseline_sysprefs_automatic_login_disable:
+        view: nist_security_baseline_sysprefs_automatic_login_disable_widget
+    nist_security_baseline_sysprefs_bluetooth_disable:
+        view: nist_security_baseline_sysprefs_bluetooth_disable_widget
+    nist_security_baseline_sysprefs_bluetooth_sharing_disable:
+        view: nist_security_baseline_sysprefs_bluetooth_sharing_disable_widget
+    nist_security_baseline_sysprefs_content_caching_disable:
+        view: nist_security_baseline_sysprefs_content_caching_disable_widget
+    nist_security_baseline_sysprefs_diagnostics_reports_disable:
+        view: nist_security_baseline_sysprefs_diagnostics_reports_disable_widget
+    nist_security_baseline_sysprefs_filevault_enforce:
+        view: nist_security_baseline_sysprefs_filevault_enforce_widget
+    nist_security_baseline_sysprefs_find_my_disable:
+        view: nist_security_baseline_sysprefs_find_my_disable_widget
+    nist_security_baseline_sysprefs_firewall_enable:
+        view: nist_security_baseline_sysprefs_firewall_enable_widget
+    nist_security_baseline_sysprefs_firewall_stealth_mode_enable:
+        view: nist_security_baseline_sysprefs_firewall_stealth_mode_enable_widget
+    nist_security_baseline_sysprefs_gatekeeper_identified_developers_allowed:
+        view: nist_security_baseline_sysprefs_gatekeeper_identified_developers_allowed_widget
+    nist_security_baseline_sysprefs_gatekeeper_override_disallow:
+        view: nist_security_baseline_sysprefs_gatekeeper_override_disallow_widget
+    nist_security_baseline_sysprefs_hot_corners_disable:
+        view: nist_security_baseline_sysprefs_hot_corners_disable_widget
+    nist_security_baseline_sysprefs_internet_sharing_disable:
+        view: nist_security_baseline_sysprefs_internet_sharing_disable_widget
+    nist_security_baseline_sysprefs_location_services_disable:
+        view: nist_security_baseline_sysprefs_location_services_disable_widget
+    nist_security_baseline_sysprefs_loginwindow_prompt_username_password_enforce:
+        view: nist_security_baseline_sysprefs_loginwindow_prompt_username_password_enforce_widget
+    nist_security_baseline_sysprefs_media_sharing_disabled:
+        view: nist_security_baseline_sysprefs_media_sharing_disabled_widget
+    nist_security_baseline_sysprefs_password_hints_disable:
+        view: nist_security_baseline_sysprefs_password_hints_disable_widget
+    nist_security_baseline_sysprefs_rae_disable:
+        view: nist_security_baseline_sysprefs_rae_disable_widget
+    nist_security_baseline_sysprefs_screen_sharing_disable:
+        view: nist_security_baseline_sysprefs_screen_sharing_disable_widget
+    nist_security_baseline_sysprefs_siri_disable:
+        view: nist_security_baseline_sysprefs_siri_disable_widget
+    nist_security_baseline_sysprefs_smbd_disable:
+        view: nist_security_baseline_sysprefs_smbd_disable_widget
+    nist_security_baseline_sysprefs_ssh_enable:
+        view: nist_security_baseline_sysprefs_ssh_enable_widget
+    nist_security_baseline_sysprefs_time_server_configure:
+        view: nist_security_baseline_sysprefs_time_server_configure_widget
+    nist_security_baseline_sysprefs_time_server_enforce:
+        view: nist_security_baseline_sysprefs_time_server_enforce_widget
+    nist_security_baseline_sysprefs_token_removal_enforce:
+        view: nist_security_baseline_sysprefs_token_removal_enforce_widget
+    nist_security_baseline_sysprefs_touchid_unlock_disable:
+        view: nist_security_baseline_sysprefs_touchid_unlock_disable_widget
+    nist_security_baseline_sysprefs_wifi_disable:
+        view: nist_security_baseline_sysprefs_wifi_disable_widget
+    nist_security_baseline_icloud_addressbook_disable:
+        view: nist_security_baseline_icloud_addressbook_disable_widget
+    nist_security_baseline_icloud_calendar_disable:
+        view: nist_security_baseline_icloud_calendar_disable_widget
+    nist_security_baseline_icloud_mail_disable:
+        view: nist_security_baseline_icloud_mail_disable_widget
+    nist_security_baseline_icloud_notes_disable:
+        view: nist_security_baseline_icloud_notes_disable_widget
+    nist_security_baseline_icloud_reminders_disable:
+        view: nist_security_baseline_icloud_reminders_disable_widget
+    nist_security_baseline_icloud_appleid_prefpane_disable:
+        view: nist_security_baseline_icloud_appleid_prefpane_disable_widget
+    nist_security_baseline_icloud_bookmarks_disable:
+        view: nist_security_baseline_icloud_bookmarks_disable_widget
+    nist_security_baseline_icloud_drive_disable:
+        view: nist_security_baseline_icloud_drive_disable_widget
+    nist_security_baseline_icloud_keychain_disable:
+        view: nist_security_baseline_icloud_keychain_disable_widget
+    nist_security_baseline_icloud_photos_disable:
+        view: nist_security_baseline_icloud_photos_disable_widget
+    nist_security_baseline_icloud_sync_disable:
+        view: nist_security_baseline_icloud_sync_disable_widget
+    nist_security_baseline_os_sip_enable:
+        view: nist_security_baseline_os_sip_enable_widget
+    nist_security_baseline_os_airdrop_disable:
+        view: nist_security_baseline_os_airdrop_disable_widget
+    nist_security_baseline_os_appleid_prompt_disable:
+        view: nist_security_baseline_os_appleid_prompt_disable_widget
+    nist_security_baseline_os_bonjour_disable:
+        view: nist_security_baseline_os_bonjour_disable_widget
+    nist_security_baseline_os_calendar_app_disable:
+        view: nist_security_baseline_os_calendar_app_disable_widget
+    nist_security_baseline_os_camera_disable:
+        view: nist_security_baseline_os_camera_disable_widget
+    nist_security_baseline_os_certificate_authority_trust:
+        view: nist_security_baseline_os_certificate_authority_trust_widget
+    nist_security_baseline_os_facetime_app_disable:
+        view: nist_security_baseline_os_facetime_app_disable_widget
+    nist_security_baseline_os_filevault_autologin_disable:
+        view: nist_security_baseline_os_filevault_autologin_disable_widget
+    nist_security_baseline_os_firewall_default_deny_require:
+        view: nist_security_baseline_os_firewall_default_deny_require_widget
+    nist_security_baseline_os_firewall_log_enable:
+        view: nist_security_baseline_os_firewall_log_enable_widget
+    nist_security_baseline_os_firmware_password_require:
+        view: nist_security_baseline_os_firmware_password_require_widget
+    nist_security_baseline_os_gatekeeper_enable:
+        view: nist_security_baseline_os_gatekeeper_enable_widget
+    nist_security_baseline_os_guest_access_afp_disable:
+        view: nist_security_baseline_os_guest_access_afp_disable_widget
+    nist_security_baseline_os_guest_access_smb_disable:
+        view: nist_security_baseline_os_guest_access_smb_disable_widget
+    nist_security_baseline_os_guest_account_disable:
+        view: nist_security_baseline_os_guest_account_disable_widget
+    nist_security_baseline_os_handoff_disable:
+        view: nist_security_baseline_os_handoff_disable_widget
+    nist_security_baseline_os_home_folders_secure:
+        view: nist_security_baseline_os_home_folders_secure_widget
+    nist_security_baseline_os_httpd_disable:
+        view: nist_security_baseline_os_httpd_disable_widget
+    nist_security_baseline_os_icloud_storage_prompt_disable:
+        view: nist_security_baseline_os_icloud_storage_prompt_disable_widget
+    nist_security_baseline_os_internet_accounts_prefpane_disable:
+        view: nist_security_baseline_os_internet_accounts_prefpane_disable_widget
+    nist_security_baseline_os_ir_support_disable:
+        view: nist_security_baseline_os_ir_support_disable_widget
+    nist_security_baseline_os_mail_app_disable:
+        view: nist_security_baseline_os_mail_app_disable_widget
+    nist_security_baseline_os_messages_app_disable:
+        view: nist_security_baseline_os_messages_app_disable_widget
+    nist_security_baseline_os_nfsd_disable:
+        view: nist_security_baseline_os_nfsd_disable_widget
+    nist_security_baseline_os_parental_controls_enable:
+        view: nist_security_baseline_os_parental_controls_enable_widget
+    nist_security_baseline_os_password_autofill_disable:
+        view: nist_security_baseline_os_password_autofill_disable_widget
+    nist_security_baseline_os_password_proximity_disable:
+        view: nist_security_baseline_os_password_proximity_disable_widget
+    nist_security_baseline_os_password_sharing_disable:
+        view: nist_security_baseline_os_password_sharing_disable_widget
+    nist_security_baseline_os_policy_banner_loginwindow_enforce:
+        view: nist_security_baseline_os_policy_banner_loginwindow_enforce_widget
+    nist_security_baseline_os_policy_banner_ssh_configure:
+        view: nist_security_baseline_os_policy_banner_ssh_configure_widget
+    nist_security_baseline_os_policy_banner_ssh_enforce:
+        view: nist_security_baseline_os_policy_banner_ssh_enforce_widget
+    nist_security_baseline_os_power_nap_disable:
+        view: nist_security_baseline_os_power_nap_disable_widget
+    nist_security_baseline_os_privacy_setup_prompt_disable:
+        view: nist_security_baseline_os_privacy_setup_prompt_disable_widget
+    nist_security_baseline_os_removable_media_disable:
+        view: nist_security_baseline_os_removable_media_disable_widget
+    nist_security_baseline_os_root_disable:
+        view: nist_security_baseline_os_root_disable_widget
+    nist_security_baseline_os_root_disable_sshd:
+        view: nist_security_baseline_os_root_disable_sshd_widget
+    nist_security_baseline_os_screensaver_ask_for_password_delay_enforce:
+        view: nist_security_baseline_os_screensaver_ask_for_password_delay_enforce_widget
+    nist_security_baseline_os_screensaver_loginwindow_enforce:
+        view: nist_security_baseline_os_screensaver_loginwindow_enforce_widget
+    nist_security_baseline_os_screensaver_password_enforce:
+        view: nist_security_baseline_os_screensaver_password_enforce_widget
+    nist_security_baseline_os_screensaver_timeout_enforce:
+        view: nist_security_baseline_os_screensaver_timeout_enforce_widget
+    nist_security_baseline_os_secure_boot_verify:
+        view: nist_security_baseline_os_secure_boot_verify_widget
+    nist_security_baseline_os_siri_prompt_disable:
+        view: nist_security_baseline_os_siri_prompt_disable_widget
+    nist_security_baseline_os_ssh_client_alive_count_max_configure:
+        view: nist_security_baseline_os_ssh_client_alive_count_max_configure_widget
+    nist_security_baseline_os_ssh_client_alive_interval_configure:
+        view: nist_security_baseline_os_ssh_client_alive_interval_configure_widget
+    nist_security_baseline_os_ssh_fips_140_ciphers:
+        view: nist_security_baseline_os_ssh_fips_140_ciphers_widget
+    nist_security_baseline_os_ssh_fips_140_macs:
+        view: nist_security_baseline_os_ssh_fips_140_macs_widget
+    nist_security_baseline_os_ssh_login_grace_time_configure:
+        view: nist_security_baseline_os_ssh_login_grace_time_configure_widget
+    nist_security_baseline_os_ssh_max_sessions_configure:
+        view: nist_security_baseline_os_ssh_max_sessions_configure_widget
+    nist_security_baseline_os_ssh_permit_root_login_configure:
+        view: nist_security_baseline_os_ssh_permit_root_login_configure_widget
+    nist_security_baseline_os_sudoers_tty_configure:
+        view: nist_security_baseline_os_sudoers_tty_configure_widget
+    nist_security_baseline_os_system_wide_preferences_configure:
+        view: nist_security_baseline_os_system_wide_preferences_configure_widget
+    nist_security_baseline_os_time_server_enabled:
+        view: nist_security_baseline_os_time_server_enabled_widget
+    nist_security_baseline_os_touchid_prompt_disable:
+        view: nist_security_baseline_os_touchid_prompt_disable_widget
+    nist_security_baseline_os_uamdm_require:
+        view: nist_security_baseline_os_uamdm_require_widget
+    nist_security_baseline_os_unlock_active_user_session_disable:
+        view: nist_security_baseline_os_unlock_active_user_session_disable_widget
+    nist_security_baseline_os_user_app_installation_prohibit:
+        view: nist_security_baseline_os_user_app_installation_prohibit_widget
+    nist_security_baseline_os_uucp_disable:
+        view: nist_security_baseline_os_uucp_disable_widget
+    nist_security_baseline_pwpolicy_60_day_enforce:
+        view: nist_security_baseline_pwpolicy_60_day_enforce_widget
+    nist_security_baseline_pwpolicy_account_inactivity_enforce:
+        view: nist_security_baseline_pwpolicy_account_inactivity_enforce_widget
+    nist_security_baseline_pwpolicy_account_lockout_enforce:
+        view: nist_security_baseline_pwpolicy_account_lockout_enforce_widget
+    nist_security_baseline_pwpolicy_account_lockout_timeout_enforce:
+        view: nist_security_baseline_pwpolicy_account_lockout_timeout_enforce_widget
+    nist_security_baseline_pwpolicy_alpha_numeric_enforce:
+        view: nist_security_baseline_pwpolicy_alpha_numeric_enforce_widget
+    nist_security_baseline_pwpolicy_emergency_accounts_disable:
+        view: nist_security_baseline_pwpolicy_emergency_accounts_disable_widget
+    nist_security_baseline_pwpolicy_history_enforce:
+        view: nist_security_baseline_pwpolicy_history_enforce_widget
+    nist_security_baseline_pwpolicy_lower_case_character_enforce:
+        view: nist_security_baseline_pwpolicy_lower_case_character_enforce_widget
+    nist_security_baseline_pwpolicy_minimum_length_enforce:
+        view: nist_security_baseline_pwpolicy_minimum_length_enforce_widget
+    nist_security_baseline_pwpolicy_minimum_lifetime_enforce:
+        view: nist_security_baseline_pwpolicy_minimum_lifetime_enforce_widget
+    nist_security_baseline_pwpolicy_simple_sequence_disable:
+        view: nist_security_baseline_pwpolicy_simple_sequence_disable_widget
+    nist_security_baseline_pwpolicy_special_character_enforce:
+        view: nist_security_baseline_pwpolicy_special_character_enforce_widget
+    nist_security_baseline_pwpolicy_temporary_accounts_disable:
+        view: nist_security_baseline_pwpolicy_temporary_accounts_disable_widget
+    nist_security_baseline_pwpolicy_upper_case_character_enforce:
+        view: nist_security_baseline_pwpolicy_upper_case_character_enforce_widget
+    nist_security_baseline_audit_alert_processing_fail:
+        view: nist_security_baseline_audit_alert_processing_fail_widget
+    nist_security_baseline_audit_enforce_dual_auth:
+        view: nist_security_baseline_audit_enforce_dual_auth_widget
+    nist_security_baseline_audit_off_load_records:
+        view: nist_security_baseline_audit_off_load_records_widget
+    nist_security_baseline_os_enforce_login_attempt_delay:
+        view: nist_security_baseline_os_enforce_login_attempt_delay_widget
+    nist_security_baseline_os_limit_dos_attacks:
+        view: nist_security_baseline_os_limit_dos_attacks_widget
+    nist_security_baseline_os_limit_invalid_logons:
+        view: nist_security_baseline_os_limit_invalid_logons_widget
+    nist_security_baseline_os_notify_account_created:
+        view: nist_security_baseline_os_notify_account_created_widget
+    nist_security_baseline_os_notify_account_disabled:
+        view: nist_security_baseline_os_notify_account_disabled_widget
+    nist_security_baseline_os_notify_account_enable:
+        view: nist_security_baseline_os_notify_account_enable_widget
+    nist_security_baseline_os_notify_account_modified:
+        view: nist_security_baseline_os_notify_account_modified_widget
+    nist_security_baseline_os_notify_account_removal:
+        view: nist_security_baseline_os_notify_account_removal_widget
+    nist_security_baseline_os_notify_unauthorized_baseline_change:
+        view: nist_security_baseline_os_notify_unauthorized_baseline_change_widget
+    nist_security_baseline_os_protect_dos_attacks:
+        view: nist_security_baseline_os_protect_dos_attacks_widget
+    nist_security_baseline_os_provide_automated_account_management:
+        view: nist_security_baseline_os_provide_automated_account_management_widget
+    nist_security_baseline_os_reauth_devices_change_authenticators:
+        view: nist_security_baseline_os_reauth_devices_change_authenticators_widget
+    nist_security_baseline_pwpolicy_50_percent:
+        view: nist_security_baseline_pwpolicy_50_percent_widget
+    nist_security_baseline_pwpolicy_prevent_dictionary_words:
+        view: nist_security_baseline_pwpolicy_prevent_dictionary_words_widget
+    nist_security_baseline_pwpolicy_force_password_change:
+        view: nist_security_baseline_pwpolicy_force_password_change_widget
+    nist_security_baseline_os_auth_peripherals:
+        view: nist_security_baseline_os_auth_peripherals_widget
+    nist_security_baseline_os_identify_non-org_users:
+        view: nist_security_baseline_os_identify_non-org_users_widget
+    nist_security_baseline_os_prohibit_cached_authenticators:
+        view: nist_security_baseline_os_prohibit_cached_authenticators_widget
+    nist_security_baseline_os_react_security_anomalies:
+        view: nist_security_baseline_os_react_security_anomalies_widget
+    nist_security_baseline_os_request_verification_name_resolution:
+        view: nist_security_baseline_os_request_verification_name_resolution_widget
+    nist_security_baseline_os_verify_security_functions:
+        view: nist_security_baseline_os_verify_security_functions_widget
+    nist_security_baseline_audit_auditd_enabled:
+        view: nist_security_baseline_audit_auditd_enabled_widget
+    nist_security_baseline_os_allow_info_passed:
+        view: nist_security_baseline_os_allow_info_passed_widget
+    nist_security_baseline_os_change_security_attributes:
+        view: nist_security_baseline_os_change_security_attributes_widget
+    nist_security_baseline_os_crypto_audit:
+        view: nist_security_baseline_os_crypto_audit_widget
+    nist_security_baseline_os_enforce_access_restrictions:
+        view: nist_security_baseline_os_enforce_access_restrictions_widget
+    nist_security_baseline_os_error_message:
+        view: nist_security_baseline_os_error_message_widget
+    nist_security_baseline_os_fail_secure_state:
+        view: nist_security_baseline_os_fail_secure_state_widget
+    nist_security_baseline_os_grant_privs:
+        view: nist_security_baseline_os_grant_privs_widget
+    nist_security_baseline_os_implement_memory_protection:
+        view: nist_security_baseline_os_implement_memory_protection_widget
+    nist_security_baseline_os_implement_cryptography:
+        view: nist_security_baseline_os_implement_cryptography_widget
+    nist_security_baseline_os_implement_random_address_space:
+        view: nist_security_baseline_os_implement_random_address_space_widget
+    nist_security_baseline_os_isolate_security_functions:
+        view: nist_security_baseline_os_isolate_security_functions_widget
+    nist_security_baseline_os_limit_auditable_events:
+        view: nist_security_baseline_os_limit_auditable_events_widget
+    nist_security_baseline_os_limit_gui_sessions:
+        view: nist_security_baseline_os_limit_gui_sessions_widget
+    nist_security_baseline_os_logical_access:
+        view: nist_security_baseline_os_logical_access_widget
+    nist_security_baseline_os_logoff_capability_and_message:
+        view: nist_security_baseline_os_logoff_capability_and_message_widget
+    nist_security_baseline_os_map_pki_identity:
+        view: nist_security_baseline_os_map_pki_identity_widget
+    nist_security_baseline_os_mfa_network_access:
+        view: nist_security_baseline_os_mfa_network_access_widget
+    nist_security_baseline_os_mfa_network_non-priv:
+        view: nist_security_baseline_os_mfa_network_non-priv_widget
+    nist_security_baseline_os_obscure_password:
+        view: nist_security_baseline_os_obscure_password_widget
+    nist_security_baseline_os_peripherals_identify:
+        view: nist_security_baseline_os_peripherals_identify_widget
+    nist_security_baseline_os_predictable_behavior:
+        view: nist_security_baseline_os_predictable_behavior_widget
+    nist_security_baseline_os_preserve_information_on_crash:
+        view: nist_security_baseline_os_preserve_information_on_crash_widget
+    nist_security_baseline_os_prevent_priv_execution:
+        view: nist_security_baseline_os_prevent_priv_execution_widget
+    nist_security_baseline_os_prevent_priv_functions:
+        view: nist_security_baseline_os_prevent_priv_functions_widget
+    nist_security_baseline_os_prevent_restricted_software:
+        view: nist_security_baseline_os_prevent_restricted_software_widget
+    nist_security_baseline_os_prevent_unauthorized_disclosure:
+        view: nist_security_baseline_os_prevent_unauthorized_disclosure_widget
+    nist_security_baseline_os_provide_disconnect_remote_access:
+        view: nist_security_baseline_os_provide_disconnect_remote_access_widget
+    nist_security_baseline_os_reauth_privilege:
+        view: nist_security_baseline_os_reauth_privilege_widget
+    nist_security_baseline_os_reauth_users_change_authenticators:
+        view: nist_security_baseline_os_reauth_users_change_authenticators_widget
+    nist_security_baseline_os_remote_access_methods:
+        view: nist_security_baseline_os_remote_access_methods_widget
+    nist_security_baseline_os_remove_software_components_after_updates:
+        view: nist_security_baseline_os_remove_software_components_after_updates_widget
+    nist_security_baseline_os_required_crypto_module:
+        view: nist_security_baseline_os_required_crypto_module_widget
+    nist_security_baseline_os_separate_fuctionality:
+        view: nist_security_baseline_os_separate_fuctionality_widget
+    nist_security_baseline_os_store_encrypted_passwords:
+        view: nist_security_baseline_os_store_encrypted_passwords_widget
+    nist_security_baseline_os_terminate_session:
+        view: nist_security_baseline_os_terminate_session_widget
+    nist_security_baseline_os_terminate_session_inactivity:
+        view: nist_security_baseline_os_terminate_session_inactivity_widget
+    nist_security_baseline_os_unique_identification:
+        view: nist_security_baseline_os_unique_identification_widget
+    nist_security_baseline_os_verify_remote_disconnection:
+        view: nist_security_baseline_os_verify_remote_disconnection_widget
+    nist_security_baseline_supplemental_smartcard:
+        view: nist_security_baseline_supplemental_smartcard_widget

@@ -12,7 +12,7 @@ if [ $? = 0 ]; then
 	chmod a+x "${MUNKIPATH}preflight.d/nist_security_baseline.sh"
 
 	# Set preference to include this file in the preflight check
-	setreportpref "nist_security_baseline" "${CACHEPATH}nist_security_baseline.txt"
+	setreportpref "nist_security_baseline" "${CACHEPATH}nist_security_baseline.plist"
 
 else
 	echo "Failed to download all required components!"
