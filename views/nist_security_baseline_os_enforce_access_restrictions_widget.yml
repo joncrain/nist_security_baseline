@@ -1,0 +1,14 @@
+type: button
+widget_id: nist_security_baseline-os_enforce_access_restrictions-button-widget
+api_url: /module/nist_security_baseline/get_list/os_enforce_access_restrictions
+i18n_title: nist_security_baseline.widget.os_enforce_access_restrictions_title
+icon: fa-laptop
+listing_link: /show/listing/nist_security_baseline/nist_security_baseline
+buttons:
+  - label: "0"
+    i18n_label: nist_security_baseline.widget.fail
+    class: btn-danger
+  - label: "1"
+    i18n_label: nist_security_baseline.widget.pass
+    class: btn-success
+    
