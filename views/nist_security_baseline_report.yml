@@ -5,3 +5,271 @@ row1:
 row2:
     nist_security_baseline_audit_acls_folders_configure: {  }
     nist_security_baseline_audit_acls_folders_mode_configure: {  }
+    nist_security_baseline_audit_configure_capacity_notify: {  }
+row3:
+    nist_security_baseline_audit_failure_halt: {  }
+    nist_security_baseline_audit_files_group_configure: {  }
+    nist_security_baseline_audit_files_owner_configure: {  }
+row4:
+    nist_security_baseline_audit_flags_aa_configure: {  }
+    nist_security_baseline_audit_flags_ad_configure: {  }
+    nist_security_baseline_audit_flags_failed_file_read_restriction_enforced: {  }
+row5:
+    nist_security_baseline_audit_flags_failed_file_write_access_restriction_enforced: {  }
+    nist_security_baseline_audit_flags_file_attr_mod_access_restriction_enforced: {  }
+    nist_security_baseline_audit_flags_lo_configure: {  }
+row6:
+    nist_security_baseline_audit_folder_group_configure: {  }
+    nist_security_baseline_audit_folder_owner_configure: {  }
+    nist_security_baseline_audit_retention_one_week_configure: {  }
+row7:
+    nist_security_baseline_audit_settings_failure_notify: {  }
+    nist_security_baseline_auth_pam_login_smartcard_enforce: {  }
+    nist_security_baseline_auth_pam_su_smartcard_enforce: {  }
+row8:
+    nist_security_baseline_auth_pam_sudo_smartcard_enforce: {  }
+    nist_security_baseline_auth_smartcard_allow: {  }
+    nist_security_baseline_auth_smartcard_certificate_trust_enforce_high: {  }
+row9:
+    nist_security_baseline_auth_smartcard_certificate_trust_enforce_moderate: {  }
+    nist_security_baseline_auth_smartcard_enforce: {  }
+    nist_security_baseline_auth_ssh_smartcard_enforce: {  }
+row10:
+    nist_security_baseline_sysprefs_ad_tracking_disable: {  }
+    nist_security_baseline_sysprefs_afp_disable: {  }
+    nist_security_baseline_sysprefs_apple_watch_unlock_disable: {  }
+row11:
+    nist_security_baseline_sysprefs_automatic_login_disable: {  }
+    nist_security_baseline_sysprefs_bluetooth_disable: {  }
+    nist_security_baseline_sysprefs_bluetooth_sharing_disable: {  }
+row12:
+    nist_security_baseline_sysprefs_content_caching_disable: {  }
+    nist_security_baseline_sysprefs_diagnostics_reports_disable: {  }
+    nist_security_baseline_sysprefs_filevault_enforce: {  }
+row13:
+    nist_security_baseline_sysprefs_find_my_disable: {  }
+    nist_security_baseline_sysprefs_firewall_enable: {  }
+    nist_security_baseline_sysprefs_firewall_stealth_mode_enable: {  }
+row14:
+    nist_security_baseline_sysprefs_gatekeeper_identified_developers_allowed: {  }
+    nist_security_baseline_sysprefs_gatekeeper_override_disallow: {  }
+    nist_security_baseline_sysprefs_hot_corners_disable: {  }
+row15:
+    nist_security_baseline_sysprefs_internet_sharing_disable: {  }
+    nist_security_baseline_sysprefs_location_services_disable: {  }
+    nist_security_baseline_sysprefs_loginwindow_prompt_username_password_enforce: {  }
+row16:
+    nist_security_baseline_sysprefs_media_sharing_disabled: {  }
+    nist_security_baseline_sysprefs_password_hints_disable: {  }
+    nist_security_baseline_sysprefs_rae_disable: {  }
+row17:
+    nist_security_baseline_sysprefs_screen_sharing_disable: {  }
+    nist_security_baseline_sysprefs_siri_disable: {  }
+    nist_security_baseline_sysprefs_smbd_disable: {  }
+row18:
+    nist_security_baseline_sysprefs_ssh_enable: {  }
+    nist_security_baseline_sysprefs_time_server_configure: {  }
+    nist_security_baseline_sysprefs_time_server_enforce: {  }
+row19:
+    nist_security_baseline_sysprefs_token_removal_enforce: {  }
+    nist_security_baseline_sysprefs_touchid_unlock_disable: {  }
+    nist_security_baseline_sysprefs_wifi_disable: {  }
+row20:
+    nist_security_baseline_icloud_addressbook_disable: {  }
+    nist_security_baseline_icloud_calendar_disable: {  }
+    nist_security_baseline_icloud_mail_disable: {  }
+row21:
+    nist_security_baseline_icloud_notes_disable: {  }
+    nist_security_baseline_icloud_reminders_disable: {  }
+    nist_security_baseline_icloud_appleid_prefpane_disable: {  }
+row22:
+    nist_security_baseline_icloud_bookmarks_disable: {  }
+    nist_security_baseline_icloud_drive_disable: {  }
+    nist_security_baseline_icloud_keychain_disable: {  }
+row23:
+    nist_security_baseline_icloud_photos_disable: {  }
+    nist_security_baseline_icloud_sync_disable: {  }
+    nist_security_baseline_os_sip_enable: {  }
+row24:
+    nist_security_baseline_os_airdrop_disable: {  }
+    nist_security_baseline_os_appleid_prompt_disable: {  }
+    nist_security_baseline_os_bonjour_disable: {  }
+row25:
+    nist_security_baseline_os_calendar_app_disable: {  }
+    nist_security_baseline_os_camera_disable: {  }
+    nist_security_baseline_os_certificate_authority_trust: {  }
+row26:
+    nist_security_baseline_os_facetime_app_disable: {  }
+    nist_security_baseline_os_filevault_autologin_disable: {  }
+    nist_security_baseline_os_firewall_default_deny_require: {  }
+row27:
+    nist_security_baseline_os_firewall_log_enable: {  }
+    nist_security_baseline_os_firmware_password_require: {  }
+    nist_security_baseline_os_gatekeeper_enable: {  }
+row28:
+    nist_security_baseline_os_guest_access_afp_disable: {  }
+    nist_security_baseline_os_guest_access_smb_disable: {  }
+    nist_security_baseline_os_guest_account_disable: {  }
+row29:
+    nist_security_baseline_os_handoff_disable: {  }
+    nist_security_baseline_os_home_folders_secure: {  }
+    nist_security_baseline_os_httpd_disable: {  }
+row30:
+    nist_security_baseline_os_icloud_storage_prompt_disable: {  }
+    nist_security_baseline_os_internet_accounts_prefpane_disable: {  }
+    nist_security_baseline_os_ir_support_disable: {  }
+row31:
+    nist_security_baseline_os_mail_app_disable: {  }
+    nist_security_baseline_os_messages_app_disable: {  }
+    nist_security_baseline_os_nfsd_disable: {  }
+row32:
+    nist_security_baseline_os_parental_controls_enable: {  }
+    nist_security_baseline_os_password_autofill_disable: {  }
+    nist_security_baseline_os_password_proximity_disable: {  }
+row33:
+    nist_security_baseline_os_password_sharing_disable: {  }
+    nist_security_baseline_os_policy_banner_loginwindow_enforce: {  }
+    nist_security_baseline_os_policy_banner_ssh_configure: {  }
+row34:
+    nist_security_baseline_os_policy_banner_ssh_enforce: {  }
+    nist_security_baseline_os_power_nap_disable: {  }
+    nist_security_baseline_os_privacy_setup_prompt_disable: {  }
+row35:
+    nist_security_baseline_os_removable_media_disable: {  }
+    nist_security_baseline_os_root_disable: {  }
+    nist_security_baseline_os_root_disable_sshd: {  }
+row36:
+    nist_security_baseline_os_screensaver_ask_for_password_delay_enforce: {  }
+    nist_security_baseline_os_screensaver_loginwindow_enforce: {  }
+    nist_security_baseline_os_screensaver_password_enforce: {  }
+row37:
+    nist_security_baseline_os_screensaver_timeout_enforce: {  }
+    nist_security_baseline_os_secure_boot_verify: {  }
+    nist_security_baseline_os_siri_prompt_disable: {  }
+row38:
+    nist_security_baseline_os_ssh_client_alive_count_max_configure: {  }
+    nist_security_baseline_os_ssh_client_alive_interval_configure: {  }
+    nist_security_baseline_os_ssh_fips_140_ciphers: {  }
+row39:
+    nist_security_baseline_os_ssh_fips_140_macs: {  }
+    nist_security_baseline_os_ssh_login_grace_time_configure: {  }
+    nist_security_baseline_os_ssh_max_sessions_configure: {  }
+row40:
+    nist_security_baseline_os_ssh_permit_root_login_configure: {  }
+    nist_security_baseline_os_sudoers_tty_configure: {  }
+    nist_security_baseline_os_system_wide_preferences_configure: {  }
+row41:
+    nist_security_baseline_os_time_server_enabled: {  }
+    nist_security_baseline_os_touchid_prompt_disable: {  }
+    nist_security_baseline_os_uamdm_require: {  }
+row42:
+    nist_security_baseline_os_unlock_active_user_session_disable: {  }
+    nist_security_baseline_os_user_app_installation_prohibit: {  }
+    nist_security_baseline_os_uucp_disable: {  }
+row43:
+    nist_security_baseline_pwpolicy_60_day_enforce: {  }
+    nist_security_baseline_pwpolicy_account_inactivity_enforce: {  }
+    nist_security_baseline_pwpolicy_account_lockout_enforce: {  }
+row44:
+    nist_security_baseline_pwpolicy_account_lockout_timeout_enforce: {  }
+    nist_security_baseline_pwpolicy_alpha_numeric_enforce: {  }
+    nist_security_baseline_pwpolicy_emergency_accounts_disable: {  }
+row45:
+    nist_security_baseline_pwpolicy_history_enforce: {  }
+    nist_security_baseline_pwpolicy_lower_case_character_enforce: {  }
+    nist_security_baseline_pwpolicy_minimum_length_enforce: {  }
+row46:
+    nist_security_baseline_pwpolicy_minimum_lifetime_enforce: {  }
+    nist_security_baseline_pwpolicy_simple_sequence_disable: {  }
+    nist_security_baseline_pwpolicy_special_character_enforce: {  }
+row47:
+    nist_security_baseline_pwpolicy_temporary_accounts_disable: {  }
+    nist_security_baseline_pwpolicy_upper_case_character_enforce: {  }
+    nist_security_baseline_audit_alert_processing_fail: {  }
+row48:
+    nist_security_baseline_audit_enforce_dual_auth: {  }
+    nist_security_baseline_audit_off_load_records: {  }
+    nist_security_baseline_os_enforce_login_attempt_delay: {  }
+row49:
+    nist_security_baseline_os_limit_dos_attacks: {  }
+    nist_security_baseline_os_limit_invalid_logons: {  }
+    nist_security_baseline_os_notify_account_created: {  }
+row50:
+    nist_security_baseline_os_notify_account_disabled: {  }
+    nist_security_baseline_os_notify_account_enable: {  }
+    nist_security_baseline_os_notify_account_modified: {  }
+row51:
+    nist_security_baseline_os_notify_account_removal: {  }
+    nist_security_baseline_os_notify_unauthorized_baseline_change: {  }
+    nist_security_baseline_os_protect_dos_attacks: {  }
+row52:
+    nist_security_baseline_os_provide_automated_account_management: {  }
+    nist_security_baseline_os_reauth_devices_change_authenticators: {  }
+    nist_security_baseline_pwpolicy_50_percent: {  }
+row53:
+    nist_security_baseline_pwpolicy_prevent_dictionary_words: {  }
+    nist_security_baseline_pwpolicy_force_password_change: {  }
+    nist_security_baseline_os_auth_peripherals: {  }
+row54:
+    nist_security_baseline_os_identify_non-org_users: {  }
+    nist_security_baseline_os_prohibit_cached_authenticators: {  }
+    nist_security_baseline_os_react_security_anomalies: {  }
+row55:
+    nist_security_baseline_os_request_verification_name_resolution: {  }
+    nist_security_baseline_os_verify_security_functions: {  }
+    nist_security_baseline_audit_auditd_enabled: {  }
+row56:
+    nist_security_baseline_os_allow_info_passed: {  }
+    nist_security_baseline_os_change_security_attributes: {  }
+    nist_security_baseline_os_crypto_audit: {  }
+row57:
+    nist_security_baseline_os_enforce_access_restrictions: {  }
+    nist_security_baseline_os_error_message: {  }
+    nist_security_baseline_os_fail_secure_state: {  }
+row58:
+    nist_security_baseline_os_grant_privs: {  }
+    nist_security_baseline_os_implement_memory_protection: {  }
+    nist_security_baseline_os_implement_cryptography: {  }
+row59:
+    nist_security_baseline_os_implement_random_address_space: {  }
+    nist_security_baseline_os_isolate_security_functions: {  }
+    nist_security_baseline_os_limit_auditable_events: {  }
+row60:
+    nist_security_baseline_os_limit_gui_sessions: {  }
+    nist_security_baseline_os_logical_access: {  }
+    nist_security_baseline_os_logoff_capability_and_message: {  }
+row61:
+    nist_security_baseline_os_map_pki_identity: {  }
+    nist_security_baseline_os_mfa_network_access: {  }
+    nist_security_baseline_os_mfa_network_non-priv: {  }
+row62:
+    nist_security_baseline_os_obscure_password: {  }
+    nist_security_baseline_os_peripherals_identify: {  }
+    nist_security_baseline_os_predictable_behavior: {  }
+row63:
+    nist_security_baseline_os_preserve_information_on_crash: {  }
+    nist_security_baseline_os_prevent_priv_execution: {  }
+    nist_security_baseline_os_prevent_priv_functions: {  }
+row64:
+    nist_security_baseline_os_prevent_restricted_software: {  }
+    nist_security_baseline_os_prevent_unauthorized_disclosure: {  }
+    nist_security_baseline_os_provide_disconnect_remote_access: {  }
+row65:
+    nist_security_baseline_os_reauth_privilege: {  }
+    nist_security_baseline_os_reauth_users_change_authenticators: {  }
+    nist_security_baseline_os_remote_access_methods: {  }
+row66:
+    nist_security_baseline_os_remove_software_components_after_updates: {  }
+    nist_security_baseline_os_required_crypto_module: {  }
+    nist_security_baseline_os_separate_fuctionality: {  }
+row67:
+    nist_security_baseline_os_store_encrypted_passwords: {  }
+    nist_security_baseline_os_terminate_session: {  }
+    nist_security_baseline_os_terminate_session_inactivity: {  }
+row68:
+    nist_security_baseline_os_unique_identification: {  }
+    nist_security_baseline_os_verify_remote_disconnection: {  }
+    nist_security_baseline_supplemental_smartcard: {  }
+row69:
+    nist_security_baseline_supplemental_firewall_pf: {  }
+    nist_security_baseline_supplemental_password_policy: {  }

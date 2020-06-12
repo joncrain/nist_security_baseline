@@ -22,7 +22,7 @@ GREEN='\e[32m'
 YELLOW='\e[33m'
 
 # setup files
-audit_plist="/usr/local/munkireport/scripts/cache/nist_baseline.plist"
+audit_plist="/usr/local/munkireport/scripts/cache/nist_security_baseline.plist"
 audit_log="/Library/Logs/allrules_baseline.log"
 
 run_scan(){
@@ -30,7 +30,7 @@ run_scan(){
 echo "$(date -u) Beginning high baseline scan" >> "$audit_log"
 
 # write timestamp of last compliance check
-defaults write "$audit_plist" lastComplianceCheck "$(date)"
+# defaults write "$audit_plist" lastComplianceCheck "$(date)"
 
 #####----- Rule: audit_acls_files_configure -----#####
 ## Addresses the following NIST 800-53 controls: 
@@ -2091,8 +2091,9 @@ else
     defaults write "$audit_plist" pwpolicy_upper_case_character_enforce -bool YES
 fi
 
-lastComplianceScan=$(defaults read "$audit_plist" lastComplianceCheck)
 
 }
 
 run_scan
+
+plutil -convert xml1 "$audit_plist"
