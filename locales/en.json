@@ -1,0 +1,25 @@
+{
+    "column": {
+        "audit_acls_files_configure": "Audit ACLS Files Configure",
+        "audit_acls_files_mode_configure": "Audit ACLS Files Mode Configure",
+        "audit_acls_folder_wheel_configure": "Audit ACLS Folder Wheel Configure",
+        "audit_acls_folders_configure": "Audit ACLS Folders Configure",
+        "audit_acls_folders_mode_configure": "Audit ACLS Folders Mode Configure"
+    },
+    "listing": {
+        "title": "NIST Security Baseline"
+    },
+    "report": {
+        "title": "NIST Security Baseline"
+    },
+    "title": "NIST Security Baseline",
+    "widget": {
+        "pass": "Pass",
+        "fail": "Fail",
+        "audit_acls_files_configure_title": "Audit ACLS Files Configure",
+        "audit_acls_files_mode_configure_title": "Audit ACLS Files Mode Configure",
+        "audit_acls_folder_wheel_configure_title": "Audit ACLS Folder Wheel Configure",
+        "audit_acls_folders_configure_title": "Audit ACLS Folders Configure",
+        "audit_acls_folders_mode_configure_title": "Audit ACLS Folders Mode Configure"
+    }
+}

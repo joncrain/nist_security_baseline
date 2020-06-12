@@ -1,0 +1,23 @@
+client_tabs:
+    nist_security_baseline:
+        view: nist_security_baseline_tab
+        i18n: nist_security_baseline.title
+listings:
+    nist_security_baseline:
+        view: nist_security_baseline_listing
+        i18n: nist_security_baseline.listing.title
+reports:
+    nist_security_baseline:
+        view: nist_security_baseline_report
+        i18n: nist_security_baseline.report.title
+widgets:
+    nist_security_baseline_audit_acls_files_configure:
+        view: nist_security_baseline_audit_acls_files_configure_widget
+    nist_security_baseline_audit_acls_files_mode_configure:
+        view: nist_security_baseline_audit_acls_files_mode_configure_widget
+    nist_security_baseline_audit_acls_folder_wheel_configure:
+        view: nist_security_baseline_audit_acls_folder_wheel_configure_widget
+    nist_security_baseline_audit_acls_folders_configure:
+        view: nist_security_baseline_audit_acls_folders_configure_widget
+    nist_security_baseline_audit_acls_folders_mode_configure:
+        view: nist_security_baseline_audit_acls_folders_mode_configure_widget

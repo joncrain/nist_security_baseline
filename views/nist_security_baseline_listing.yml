@@ -1,0 +1,23 @@
+i18n_title: nist_security_baseline.listing.title
+table:
+    -   column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: nist_security_baseline
+    -   column: reportdata.serial_number
+        i18n_header: serial
+    -   column: nist_security_baseline.audit_acls_files_configure
+        i18n_header: nist_security_baseline.column.audit_acls_files_configure
+        formatter: binaryYesNo
+    -   column: nist_security_baseline.audit_acls_files_mode_configure
+        i18n_header: nist_security_baseline.column.audit_acls_files_mode_configure
+        formatter: binaryYesNo
+    -   column: nist_security_baseline.audit_acls_folder_wheel_configure
+        i18n_header: nist_security_baseline.column.audit_acls_folder_wheel_configure
+        formatter: binaryYesNo
+    -   column: nist_security_baseline.audit_acls_folders_configure
+        i18n_header: nist_security_baseline.column.audit_acls_folders_configure
+        formatter: binaryYesNo
+    -   column: nist_security_baseline.audit_acls_folders_mode_configure
+        i18n_header: nist_security_baseline.column.audit_acls_folders_mode_configure
+        formatter: binaryYesNo

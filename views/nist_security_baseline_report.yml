@@ -1,0 +1,7 @@
+row1:
+    nist_security_baseline_audit_acls_files_configure: {  }
+    nist_security_baseline_audit_acls_files_mode_configure: {  }
+    nist_security_baseline_audit_acls_folder_wheel_configure: {  }
+row2:
+    nist_security_baseline_audit_acls_folders_configure: {  }
+    nist_security_baseline_audit_acls_folders_mode_configure: {  }
