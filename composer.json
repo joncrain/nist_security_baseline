@@ -1,5 +1,5 @@
 {
-    "name": "munkireport/nist_security_baseline",
+    "name": "joncrain/nist_security_baseline",
     "description": "Module for munkireport.",
     "license": "MIT"
 }
